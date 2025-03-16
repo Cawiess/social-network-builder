@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import Header from "./components/Header";
+import HeroSection from "./components/Hero";
 
 function App() {
 
   return (
-    <>
-    <h1>Naked</h1>
-    <Header />
-    </>
+    <main className="bg-black">
+      {/* <Header /> */} 
+      <HeroSection />
+    </main>
   )
 }
 
